@@ -9,8 +9,7 @@ export const DATA = {
   location: "Chennai, Tamil Nadu",
   locationLink: "https://www.google.com/maps/place/Chennai,+Tamil+Nadu",
   description:
-    "Tech Support Engineer passionate about solving problems, helping people, and making technology work better. I love troubleshooting, learning new technologies, and building simple solutions to everyday technical challenges.
-",
+    "Tech Support Engineer passionate about solving problems, helping people, and making technology work better. I love troubleshooting, learning new technologies, and building simple solutions to everyday technical challenges.",
   summary:
     "M.Sc. Computer Science graduate with practical knowledge in IT support, troubleshooting, networking, and system administration. Skilled in Windows, Linux, hardware and software support, and technical issue resolution. Looking for opportunities in IT Support, Technical Support, Help Desk, or Desktop Support.",
   avatarUrl: "/me2.png",
