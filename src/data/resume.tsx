@@ -148,5 +148,12 @@ export const DATA = {
     "Introduction to Information Security & Fundamentals",
     "Be10x AI Tools Workshop",
   ],
-  hackathons: [],
+  hackathons: [] as {
+  title: string;
+  dates: string;
+  location: string;
+  description: string;
+  image?: string;
+  links?: { icon?: any; title: string; href: string }[];
+}[],
 } as const;
