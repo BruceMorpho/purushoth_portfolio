@@ -60,7 +60,14 @@ export const DATA = {
   },
 },
 
-  work: [],
+  work: [] as {
+  company: string;
+  title: string;
+  logoUrl: string;
+  start: string;
+  end?: string;
+  description: string;
+}[],
   education: [
     {
       school: "Bharathidasan University",
