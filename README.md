@@ -1,51 +1,50 @@
 <div align="center">
-  <img alt="Purushoth Portfolio" screenshot.png" width="90%">
+  <img alt="Purushoth Portfolio" src="./screenshot.png" width="90%">
 </div>
 
 # Purushoth - Portfolio [
 
 ![Deploy with Vercel](https://vercel.com/button)
 
-# Features
+](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBruceMorpho%2Fpurushoth_portfolio)
 
-- Easy to customize from a [single config file](./src/data/resume.tsx)
-- Built with Next.js 14, React, TypeScript, Tailwind CSS, Framer Motion
-- Includes a blog
-- Fully responsive
-- Optimized for Next.js and Vercel
+Hi, I'm **Purushoth**, a Tech Support Engineer from Chennai, Tamil Nadu. This is my personal portfolio, where I showcase my skills, education, projects, and certifications.
 
-# Getting Started Locally
+# About Me
 
-1. Clone the repo:
+M.Sc. Computer Science graduate with practical knowledge in IT support, troubleshooting, networking, and system administration. Skilled in Windows, Linux, hardware and software support, and technical issue resolution. Looking for opportunities in IT Support, Technical Support, Help Desk, or Desktop Support.
 
-   ```bash
-   git clone https://github.com/BruceMorpho/purushoth_portfolio
-   ```
+# What's Inside
 
-2. Go to the folder:
+- **Skills:** Windows, Linux, Networking, Ticketing Tools, Wireshark, Python, Active Directory
+- **Education:** M.Sc Computer Science (2023-2025) and B.Sc Computer Science (2020-2023), Bharathidasan University
+- **Projects:**
+  - Resume Analyzer, an AI recruitment tool built with Python, Pandas, Flask and Machine Learning
+  - A Review of Liver Patient Analysis Methods Using Machine Learning (SVM, Decision Tree, Random Forest)
+  - [BioVerix Technologies Website](https://bioverixtechnology.netlify.app/), a responsive website for an aquaculture and biotechnology company
+- **Certifications:** IBM IT Fundamentals, Cybersecurity Analyst Job Simulation (Forage & Tata), Introduction to Information Security & Fundamentals, Be10x AI Tools Workshop
 
-   ```bash
-   cd purushoth_portfolio
-   ```
+# Tech Stack
 
-3. Install dependencies:
+Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, Magic UI, Framer Motion, deployed on Vercel.
 
-   ```bash
-   pnpm install
-   ```
+# Run Locally
 
-4. Start the dev server:
+```bash
+git clone https://github.com/BruceMorpho/purushoth_portfolio
+cd purushoth_portfolio
+pnpm install
+pnpm dev
+```
 
-   ```bash
-   pnpm dev
-   ```
+Then open http://localhost:3000. All the content is managed from [src/data/resume.tsx](./src/data/resume.tsx).
 
-5. Open http://localhost:3000
+# Connect With Me
 
-# Credits
-
-Based on the open-source template by [Dillion Verma](https://github.com/dillionverma/portfolio).
+- LinkedIn: [purushoth-tech](https://linkedin.com/in/purushoth-tech)
+- GitHub: [BruceMorpho](https://github.com/BruceMorpho)
+- Email: purushothaman2709@gmail.com
 
 # License
 
-Licensed under the [MIT license](./LICENSE.md).
+Licensed under the [MIT license](./LICENSE).
