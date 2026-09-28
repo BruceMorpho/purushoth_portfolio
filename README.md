@@ -40,8 +40,11 @@
    pnpm dev
    ```
 
-5. Open http://localhost:3000
-
+5. Copy & paste web url
+ 
+   ```bash
+   http://localhost:3000
+   ```
 # Connect With Me
 
 - LinkedIn: [purushoth-tech](https://linkedin.com/in/purushoth-tech)
