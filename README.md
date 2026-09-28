@@ -1,12 +1,16 @@
 <div align="center">
-  <img alt="Purushoth Portfolio" src="./screenshot.png" width="90%">
+  <a href="https://purushoth-portfolio-ruddy.vercel.app/">
+    <img alt="Purushoth Portfolio" src="./screenshot.png" width="90%">
+  </a>
 </div>
 
-# Purushoth - Portfolio [
+# Purushoth - Portfolio 
 
 ![Deploy with Vercel](https://vercel.com/button)
 
 ](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBruceMorpho%2Fpurushoth_portfolio)
+
+🔗 **Live:** [purushoth-portfolio-ruddy.vercel.app](https://purushoth-portfolio-ruddy.vercel.app/)
 
 Hi, I'm **Purushoth**, a Tech Support Engineer from Chennai, Tamil Nadu. This is my personal portfolio, where I showcase my skills, education, projects, and certifications.
 
@@ -37,14 +41,4 @@ pnpm install
 pnpm dev
 ```
 
-Then open http://localhost:3000. All the content is managed from [src/data/resume.tsx](./src/data/resume.tsx).
-
-# Connect With Me
-
-- LinkedIn: [purushoth-tech](https://linkedin.com/in/purushoth-tech)
-- GitHub: [BruceMorpho](https://github.com/BruceMorpho)
-- Email: purushothaman2709@gmail.com
-
-# License
-
-Licensed under the [MIT license](./LICENSE).
+Then open http://localhost:3000. All the
