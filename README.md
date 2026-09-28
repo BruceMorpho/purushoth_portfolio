@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Purushoth Portfolio" src="./public/screenshot.png" width="90%">
+  <img alt="Purushoth Portfolio" screenshot.png" width="90%">
 </div>
 
 # Purushoth - Portfolio [
