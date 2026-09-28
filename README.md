@@ -1,31 +1,35 @@
 <div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+  <img alt="Purushoth Portfolio" src="./public/screenshot.png" width="90%">
 </div>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+# Purushoth - Portfolio [
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+![Deploy with Vercel](https://vercel.com/button)
+
+](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBruceMorpho%2Fpurushoth_portfolio)
+
+Personal portfolio built with Next.js, [shadcn/ui](https://ui.shadcn.com/), and [Magic UI](https://magicui.design/), deployed on Vercel.
 
 # Features
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+- Easy to customize from a [single config file](./src/data/resume.tsx)
+- Built with Next.js 14, React, TypeScript, Tailwind CSS, Framer Motion
 - Includes a blog
-- Responsive for different devices
+- Fully responsive
 - Optimized for Next.js and Vercel
 
 # Getting Started Locally
 
-1. Clone this repository to your local machine:
+1. Clone the repo:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/BruceMorpho/purushoth_portfolio
    ```
 
-2. Move to the cloned directory
+2. Go to the folder:
 
    ```bash
-   cd portfolio
+   cd purushoth_portfolio
    ```
 
 3. Install dependencies:
@@ -34,14 +38,18 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    pnpm install
    ```
 
-4. Start the local Server:
+4. Start the dev server:
 
    ```bash
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+5. Open http://localhost:3000
+
+# Credits
+
+Based on the open-source template by [Dillion Verma](https://github.com/dillionverma/portfolio).
 
 # License
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+Licensed under the [MIT license](./LICENSE.md).
