@@ -1,6 +1,51 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
-import { Instagram } from "lucide-react";
+import {
+  HomeIcon, Instagram, Wrench, Cpu, Printer, MonitorSmartphone, Server,
+  Network, Globe, Router, ShieldCheck, Flame, Cloud, FolderTree,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+
+type Skill = { name: string; logo?: string; icon?: LucideIcon };
+
+const SKILL_GROUPS: { title: string; skills: Skill[] }[] = [
+  {
+    title: "Technical Support & Troubleshooting",
+    skills: [
+      { name: "Hardware Diagnostics", icon: Cpu },
+      { name: "Software Troubleshooting", icon: Wrench },
+      { name: "PC & Printer Repair", icon: Printer },
+      { name: "Remote Desktop Support", icon: MonitorSmartphone },
+    ],
+  },
+  {
+    title: "Operating Systems",
+    skills: [
+      { name: "Windows 10/11", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
+      { name: "Windows Server", icon: Server },
+      { name: "macOS", logo: "https://cdn.simpleicons.org/macos" },
+      { name: "Linux", logo: "https://cdn.simpleicons.org/linux" },
+    ],
+  },
+  {
+    title: "Networking Concepts",
+    skills: [
+      { name: "TCP/IP", icon: Network },
+      { name: "DNS", icon: Globe },
+      { name: "DHCP", icon: Router },
+      { name: "VPN", icon: ShieldCheck },
+      { name: "Firewalls", icon: Flame },
+      { name: "Wireshark", logo: "https://cdn.simpleicons.org/wireshark" },
+    ],
+  },
+  {
+    title: "Admin Tools & Ticketing",
+    skills: [
+      { name: "Active Directory", icon: FolderTree },
+      { name: "Office 365", icon: Cloud },
+      { name: "ServiceNow", logo: "https://cdn.simpleicons.org/servicenow" },
+    ],
+  },
+];
 
 export const DATA = {
   name: "Purushoth",
@@ -13,61 +58,53 @@ export const DATA = {
   summary:
     "Hello, I’m Purushoth, a Tech Support Engineer with a strong foundation in IT support, troubleshooting, networking, and system administration. I hold an M.Sc. in Computer Science and enjoy solving technical challenges, supporting users, and continuously learning new technologies. My experience includes working with Windows and Linux environments, hardware and software support, Active Directory, networking tools, and technical issue resolution. I am passionate about delivering reliable IT solutions that improve system performance and user experiences. Through academic projects and hands-on learning, I have developed practical skills in technical support, automation, and problem-solving, and I am actively seeking opportunities in IT Support, Technical Support, Help Desk, and Desktop Support roles.",
   avatarUrl: "/me2.png",
-  skills: [
-    { name: "Windows" },
-    { name: "Linux" },
-    { name: "Networking" },
-    { name: "Ticketing Tools" },
-    { name: "Wireshark" },
-    { name: "Python" },
-    { name: "Active Directory" },
+  skills: SKILL_GROUPS,
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
   ],
- navbar: [
-  { href: "/", icon: HomeIcon, label: "Home" },
-],
   contact: {
-  email: "purushothaman2709@gmail.com",
-  tel: "9025991094",
+    email: "purushothaman2709@gmail.com",
+    tel: "9025991094",
 
-  social: {
-    LinkedIn: {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/purushoth-tech",
-      icon: Icons.linkedin,
-      navbar: true,
-    },
+    social: {
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://linkedin.com/in/purushoth-tech",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
 
-    GitHub: {
-      name: "GitHub",
-      url: "https://github.com/BruceMorpho",
-      icon: Icons.github,
-      navbar: true,
-    },
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/BruceMorpho",
+        icon: Icons.github,
+        navbar: true,
+      },
 
-    Instagram: {
-      name: "Instagram",
-      url: "https://www.instagram.com/thepurushothverse?stkn=MTVkdXl1N2RuM3A1ZA==",
-      icon: Instagram,
-      navbar: true,
-    },
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/thepurushothverse?stkn=MTVkdXl1N2RuM3A1ZA==",
+        icon: Instagram,
+        navbar: true,
+      },
 
-    email: {
-      name: "Email",
-      url: "mailto:purushothaman2709@gmail.com",
-      icon: Icons.email,
-      navbar: true,
+      email: {
+        name: "Email",
+        url: "mailto:purushothaman2709@gmail.com",
+        icon: Icons.email,
+        navbar: true,
+      },
     },
   },
-},
 
   work: [] as {
-  company: string;
-  title: string;
-  logoUrl: string;
-  start: string;
-  end?: string;
-  description: string;
-}[],
+    company: string;
+    title: string;
+    logoUrl: string;
+    start: string;
+    end?: string;
+    description: string;
+  }[],
   education: [
     {
       school: "Bharathidasan University",
@@ -122,32 +159,32 @@ export const DATA = {
       image: "/project/liver-ml.png",
       video: "",
     },
-     {
-    title: "BioVerix Technologies Website",
-    href: "https://bioverixtechnology.netlify.app/",
-    dates: "2026",
-    active: true,
-    description:
-      "Developed and launched a modern responsive website for BioVerix Technologies to establish a professional online presence and showcase its aquaculture, biotechnology, laboratory services, and research support.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Claude AI",
-      "Git",
-      "GitHub",
-      "Netlify",
-    ],
-    links: [
-      {
-        type: "Website",
-        href: "https://bioverixtechnology.netlify.app/",
-        icon: <Icons.globe className="size-3" />,
-      },
-    ],
-    image: "/project/bioverix.png",
-    video: "",
-  },
+    {
+      title: "BioVerix Technologies Website",
+      href: "https://bioverixtechnology.netlify.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed and launched a modern responsive website for BioVerix Technologies to establish a professional online presence and showcase its aquaculture, biotechnology, laboratory services, and research support.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Claude AI",
+        "Git",
+        "GitHub",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://bioverixtechnology.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/project/bioverix.png",
+      video: "",
+    },
   ],
   certifications: [
     "IBM - Information Technology Fundamentals",
@@ -156,11 +193,11 @@ export const DATA = {
     "Be10x AI Tools Workshop",
   ],
   hackathons: [] as {
-  title: string;
-  dates: string;
-  location: string;
-  description: string;
-  image?: string;
-  links?: { icon?: any; title: string; href: string }[];
-}[],
+    title: string;
+    dates: string;
+    location: string;
+    description: string;
+    image?: string;
+    links?: { icon?: any; title: string; href: string }[];
+  }[],
 } as const;
