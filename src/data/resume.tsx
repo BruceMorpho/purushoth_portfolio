@@ -42,7 +42,7 @@ const SKILL_GROUPS: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: "Active Directory", icon: FolderTree },
       { name: "Office 365", icon: Cloud },
-      { name: "ServiceNow", logo: "/skills/servicenow.png" },
+      { name: "ServiceNow", icon: Ticket },
     ],
   },
 ];
