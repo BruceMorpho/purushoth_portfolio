@@ -22,7 +22,7 @@ const SKILL_GROUPS: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: "Windows 10/11", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
       { name: "Windows Server", icon: Server },
-      { name: "macOS", logo: "https://cdn.simpleicons.org/macos" },
+      { name: "macOS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" },
       { name: "Linux", logo: "https://cdn.simpleicons.org/linux" },
     ],
   },
@@ -42,7 +42,7 @@ const SKILL_GROUPS: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: "Active Directory", icon: FolderTree },
       { name: "Office 365", icon: Cloud },
-      { name: "ServiceNow", logo: "https://cdn.simpleicons.org/servicenow" },
+      { name: "ServiceNow", logo: "/skills/servicenow.png" },
     ],
   },
 ];
