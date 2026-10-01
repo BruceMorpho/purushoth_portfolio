@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import {
   HomeIcon, Instagram, Wrench, Cpu, Printer, MonitorSmartphone, Server,
-  Network, Globe, Router, ShieldCheck, Flame, Cloud, FolderTree,
+  Network, Globe, Router, ShieldCheck, Flame, Cloud, FolderTree, Ticket,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
