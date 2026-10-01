@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Tech Support Engineer. I love solving problems, helping people, and learning new technologies. Very active on LinkedIn.",
   summary:
-    "M.Sc. Computer Science graduate with practical knowledge in IT support, troubleshooting, networking, and system administration. Skilled in Windows, Linux, hardware and software support, and technical issue resolution. Looking for opportunities in IT Support, Technical Support, Help Desk, or Desktop Support.",
+    "Hello, I’m Purushoth, a Tech Support Engineer with a strong foundation in IT support, troubleshooting, networking, and system administration. I hold an M.Sc. in Computer Science and enjoy solving technical challenges, supporting users, and continuously learning new technologies. My experience includes working with Windows and Linux environments, hardware and software support, Active Directory, networking tools, and technical issue resolution. I am passionate about delivering reliable IT solutions that improve system performance and user experiences. Through academic projects and hands-on learning, I have developed practical skills in technical support, automation, and problem-solving, and I am actively seeking opportunities in IT Support, Technical Support, Help Desk, and Desktop Support roles.",
   avatarUrl: "/me2.png",
   skills: [
     { name: "Windows" },
