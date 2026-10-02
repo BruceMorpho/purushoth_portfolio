@@ -138,7 +138,7 @@ export const DATA = {
         "Machine Learning",
       ],
       links: [],
-      image: "/project/resume-analyzer.png",
+      image: "/project/resume-analyzer.gif",
       video: "",
     },
     {
@@ -156,7 +156,7 @@ export const DATA = {
         "Random Forest",
       ],
       links: [],
-      image: "/project/liver-ml.png",
+      image: "/project/liver-ml.gif",
       video: "",
     },
     {
@@ -182,7 +182,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/project/bioverix.png",
+      image: "/project/bioverix.gif",
       video: "",
     },
   ],
