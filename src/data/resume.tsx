@@ -137,7 +137,13 @@ export const DATA = {
         "Flask",
         "Machine Learning",
       ],
-      links: [],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/BruceMorpho/AI-Resume-Analyzer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "/project/resume-analyzer.gif",
       video: "",
     },
@@ -155,7 +161,13 @@ export const DATA = {
         "Decision Tree",
         "Random Forest",
       ],
-      links: [],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/BruceMorpho/A_Review_Of_Liver_Patient_Analysis_Methods_Using_Machine_Learning",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "/project/liver-ml.gif",
       video: "",
     },
