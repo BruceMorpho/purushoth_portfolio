@@ -185,6 +185,36 @@ export const DATA = {
       image: "/project/bioverix.gif",
       video: "",
     },
+    {
+      title: "Telegram Anonymous Relay Bot",
+      href: "https://t.me/teamxrelaybot",
+      dates: "2026",
+      active: true,
+      description:
+        "Built a Telegram bot that forwards every visitor message (text, photos, videos, voice, documents, stickers) to the owner's private chat. Owner replies are sent back by the bot, so the owner's name, username and ID are never revealed. Runs as a serverless Flask webhook on Vercel, with reply routes stored in Upstash Redis for 90 days.",
+      technologies: [
+        "Python",
+        "Flask",
+        "Telegram Bot API",
+        "Vercel",
+        "Upstash Redis",
+        "GitHub",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://t.me/teamxrelaybot",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/BruceMorpho/personal-tg-bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project/personal-tg-bot.gif",
+      video: "",
+    },
   ],
   certifications: [
     "IBM - Information Technology Fundamentals",
